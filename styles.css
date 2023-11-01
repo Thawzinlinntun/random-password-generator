@@ -1,0 +1,46 @@
+body{
+    background-color: #CAEDF7;
+}
+
+#container{
+    margin: auto;
+    margin-top: 100px;
+}
+
+#upperContainer{
+    text-align: center;
+}
+
+#passwordText{
+    width: 70%;
+    border: none;
+    padding: 20px;
+    font-size: 40px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.055);
+}
+
+#passwordText:focus{
+    outline: none;
+}
+
+#lowerContainer{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+#customizePass{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+#inputEles{
+    display: flex;
+}
